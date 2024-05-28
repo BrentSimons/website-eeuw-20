@@ -37,6 +37,7 @@
     "gulp-autoprefixer": "^8.0.0",
     "gulp-css-mqpacker": "^1.0.1",
     "gulp-dart-sass": "^1.0.2",
+    "gulp-gh-pages": "^0.5.4",
     "gulp-imagemin": "^7.1.0",
     "gulp-minifier": "^3.5.0",
     "gulp-newer": "^1.4.0",
