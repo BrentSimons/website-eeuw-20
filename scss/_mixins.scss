@@ -1,0 +1,24 @@
+@use "sass:color";
+
+// mixins brent
+@mixin font_maker($font, $line_height, $color) {
+  font-family: $font;
+  line-height: $line_height;
+  color: $color;
+}
+
+@mixin img_border($thickness,$style: solid,$color-border: $theme_dark_red,$color-bgc: #eee,$radius: 15px) {
+  border: $thickness $style $color-border;
+  background-color: $color-bgc;
+  border-radius: $radius;
+}
+
+@mixin button_maker($color, $width: 12rem, $text-color) {
+  background-color: $color;
+  color: $text-color;
+  max-width: $width;
+  width: 100%;
+}
+
+
+// mixins alexander

@@ -1,0 +1,17 @@
+{
+  "tabWidth": 4,
+  "singleQuote": true,
+  "arrowParens": "always",
+  "overrides": [
+    {
+      "files": [
+        "*.css",
+        "*.scss",
+        "*.json"
+      ],
+      "options": {
+        "tabWidth": 2
+      }
+    }
+  ]
+}
