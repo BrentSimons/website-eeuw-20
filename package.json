@@ -3,10 +3,6 @@
   "version": "1.0.0",
   "description": "1ITF Sass - Bootstrap 5 project",
   "main": "index.js",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/pverhaert/1ITF_Sass_BS5_project.git"
-  },
   "keywords": [
     "Thomas More Kempen",
     "Sass",
@@ -15,10 +11,6 @@
   ],
   "author": "Patrick Verhaert",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/pverhaert/1ITF_Sass_BS5_project/issues"
-  },
-  "homepage": "https://github.com/pverhaert/1ITF_Sass_BS5_project#readme",
   "scripts": {
     "watch": "gulp",
     "build": "gulp build",
