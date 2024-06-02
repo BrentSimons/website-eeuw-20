@@ -195,7 +195,6 @@ gulp.task('minify', () =>
 gulp.task('build', gulp.series('clean', 'copy-js', 'sass', 'copy', 'generate-favicon', 'inject-favicon-markup', 'minify'));
 gulp.task('default', gulp.series('copy-js', 'sass', 'browser-sync'));
 
-var gulp        = require('gulp');
 var deploy      = require('gulp-gh-pages');
 
 gulp.task('deploy', function () {
