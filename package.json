@@ -21,7 +21,8 @@
   "homepage": "https://github.com/pverhaert/1ITF_Sass_BS5_project#readme",
   "scripts": {
     "watch": "gulp",
-    "build": "gulp build"
+    "build": "gulp build",
+    "deploy": "gulp deploy"
   },
   "devDependencies": {
     "bootstrap": "^5.1.3",
